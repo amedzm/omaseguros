@@ -15,7 +15,7 @@
     <div class="container topbar-inner">
       <span>Atención personalizada en Ciudad de Panamá</span>
       <div class="topbar-links">
-        <a href="mailto:omaseguros@gmail.com">omaseguros@gmail.com</a>
+        <a href="mailto:info@segurosoma.com">info@segurosoma.com</a>
       </div>
     </div>
   </div>
@@ -42,7 +42,7 @@
   <main>
     <section class="hero">
       <video class="hero-video" autoplay muted loop playsinline poster="assets/meeting-oma.png" aria-hidden="true">
-        <source src="assets/hero-oma.mp4" type="video/mp4">
+        <source src="assets/hero-oma-v2.mp4" type="video/mp4">
       </video>
       <div class="hero-backdrop"></div>
       <div class="container hero-grid">
@@ -203,27 +203,63 @@
     </section>
 
     <section class="contact" id="contacto">
-      <div class="container contact-grid">
-        <div>
-          <span class="eyebrow">Hablemos</span>
-          <h2>Estamos para orientarte</h2>
-          <p>Cuéntanos qué necesitas proteger y coordinamos una asesoría.</p>
-          <div class="contact-list">
-            <a href="mailto:omaseguros@gmail.com"><b>Correo</b><span>omaseguros@gmail.com</span></a>
-            <a href="#"><b>Instagram</b><span>@omaseguros</span></a>
-            <div><b>Ubicación</b><span>Ciudad de Panamá</span></div>
+      <div class="container">
+        <div class="contact-shell">
+          <div class="contact-intro">
+            <span class="eyebrow">Hablemos</span>
+            <h2>Estamos para orientarte</h2>
+            <p>Cuéntanos qué necesitas proteger y coordinamos una asesoría clara, cercana y profesional.</p>
+            <div class="contact-highlights">
+              <span>Respuesta ágil</span>
+              <span>Asesoría personalizada</span>
+              <span>Atención cercana</span>
+            </div>
+            <div class="contact-list">
+              <a href="mailto:info@segurosoma.com" class="contact-item">
+                <span class="contact-icon">✉</span>
+                <div>
+                  <b>Correo</b>
+                  <span>info@segurosoma.com</span>
+                  <small>Escríbenos y te contactaremos a la brevedad.</small>
+                </div>
+              </a>
+              <a href="#" class="contact-item">
+                <span class="contact-icon">◎</span>
+                <div>
+                  <b>Instagram</b>
+                  <span>@omaseguros</span>
+                  <small>Conoce más sobre nuestra marca y novedades.</small>
+                </div>
+              </a>
+              <div class="contact-item static">
+                <span class="contact-icon">⌂</span>
+                <div>
+                  <b>Ubicación</b>
+                  <span>Ciudad de Panamá</span>
+                  <small>Atención y acompañamiento para tus consultas.</small>
+                </div>
+              </div>
+            </div>
           </div>
+          <form class="contact-form" id="contactForm">
+            <div class="form-intro">
+              <span>Formulario de contacto</span>
+              <h3>Cuéntanos cómo podemos ayudarte</h3>
+              <p>Déjanos tus datos y uno de nuestros asesores te dará seguimiento.</p>
+            </div>
+            <div class="field-grid two">
+              <label>Nombre<input required type="text" placeholder="Nombre completo"></label>
+              <label>Correo<input required type="email" placeholder="nombre@correo.com"></label>
+              <label>Teléfono<input type="tel" placeholder="+507 6000-0000"></label>
+              <label>Asunto<select><option>Cotización</option><option>Consulta</option><option>Seguimiento</option><option>Otro</option></select></label>
+            </div>
+            <label>Mensaje<textarea rows="6" placeholder="¿Cómo podemos ayudarte?"></textarea></label>
+            <div class="form-actions">
+              <button class="btn btn-primary" type="submit">Enviar mensaje</button>
+              <small>Te responderemos por correo con el seguimiento de tu solicitud.</small>
+            </div>
+          </form>
         </div>
-        <form class="contact-form" id="contactForm">
-          <div class="field-grid two">
-            <label>Nombre<input required type="text" placeholder="Nombre completo"></label>
-            <label>Correo<input required type="email" placeholder="nombre@correo.com"></label>
-            <label>Teléfono<input type="tel" placeholder="+507 6000-0000"></label>
-            <label>Asunto<select><option>Cotización</option><option>Consulta</option><option>Seguimiento</option><option>Otro</option></select></label>
-          </div>
-          <label>Mensaje<textarea rows="5" placeholder="¿Cómo podemos ayudarte?"></textarea></label>
-          <button class="btn btn-primary" type="submit">Enviar mensaje</button>
-        </form>
       </div>
     </section>
   </main>
@@ -233,7 +269,7 @@
       <div class="footer-brand"><img src="assets/oma-logo.png" alt="OMA Seguros"><p>Protege lo que amas.</p></div>
       <div><h4>Seguros</h4><a href="#seguros">Automóvil</a><a href="#seguros">Vida</a><a href="#seguros">Salud</a><a href="#seguros">Hogar</a></div>
       <div><h4>OMA</h4><a href="#nosotros">Nosotros</a><a href="#cotizar">Cotizar</a><button data-open-auth="login">Mi OMA</button><a href="#contacto">Contacto</a></div>
-      <div><h4>Contacto</h4><span>omaseguros@gmail.com</span><span>@omaseguros</span></div>
+      <div><h4>Contacto</h4><span>info@segurosoma.com</span><span>@omaseguros</span></div>
     </div>
     <div class="container footer-bottom"><span>© 2026 OMA Seguros. Demo de propuesta web.</span><span>Diseño basado en el manual de identidad visual de OMA.</span></div>
   </footer>
