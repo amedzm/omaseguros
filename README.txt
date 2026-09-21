@@ -24,3 +24,5 @@ Para producción se recomienda:
 
 Actualización V3: se ajustó la paleta principal a un rojo vino más oscuro para reforzar la sobriedad visual.
 Actualización V4: se eliminaron los números de teléfono visibles de contacto del sitio.
+
+Actualización V5: se añadieron imágenes ilustrativas clásicas (sin barba) y un video de fondo en la entrada.
