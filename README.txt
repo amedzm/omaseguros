@@ -32,3 +32,9 @@ Actualización V6: se rediseñó la sección de contacto con un estilo más eleg
 Actualización V7: se corrigieron proporciones, recortes y alturas de imágenes para integrarlas mejor con la escala general del sitio.
 
 Actualización V8: correo actualizado a info@segurosoma.com; sección de contacto equilibrada en dos columnas; tarjetas de contacto compactadas; formulario extendido; video de portada reemplazado por una nueva variante del mismo estilo visual.
+
+V9: Reorganización del contenido con enfoque de marca y presencia pública de OMA Seguros. Se añadieron ramos Personas, Generales y Fianzas; licencia PJ 934; experiencia del equipo; Instagram @oma.seguros; y mejoras en la narrativa comercial.
+
+Actualización V10: se mejoró el footer agregando iconos y mejorando la presentación visual de enlaces y datos de contacto.
+
+Actualización V11: se añadieron videos ilustrativos de fondo en las secciones principales (Seguros, Cotizar, Nosotros y Contacto) manteniendo el tono corporativo y elegante del sitio.
