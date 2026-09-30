@@ -38,3 +38,9 @@ V9: Reorganización del contenido con enfoque de marca y presencia pública de O
 Actualización V10: se mejoró el footer agregando iconos y mejorando la presentación visual de enlaces y datos de contacto.
 
 Actualización V11: se añadieron videos ilustrativos de fondo en las secciones principales (Seguros, Cotizar, Nosotros y Contacto) manteniendo el tono corporativo y elegante del sitio.
+
+Actualización V12: se aclaró el video de portada reduciendo la oscuridad del overlay y aumentando la luminosidad del video para mantener el estilo sin perder visibilidad.
+
+Actualización V13: se aclaró un poco más el video del hero para mejorar la presencia visual manteniendo el contraste del texto.
+
+Actualización V14: se corrigió la legibilidad del texto superior del hero usando texto claro con fondo sutil para que se vea mejor sobre el video.
