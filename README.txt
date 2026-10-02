@@ -44,3 +44,5 @@ Actualización V12: se aclaró el video de portada reduciendo la oscuridad del o
 Actualización V13: se aclaró un poco más el video del hero para mejorar la presencia visual manteniendo el contraste del texto.
 
 Actualización V14: se corrigió la legibilidad del texto superior del hero usando texto claro con fondo sutil para que se vea mejor sobre el video.
+
+Actualización V15: cada tipo de seguro abre un formulario específico con los datos correspondientes para Automóvil, Vida, Salud, Hogar, Empresas, Fianzas y necesidades especiales. Las solicitudes se guardan en Mi OMA para seguimiento.

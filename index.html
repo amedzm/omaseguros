@@ -180,16 +180,26 @@
             <div><span>3</span><p><strong>Recibe seguimiento</strong> de un asesor.</p></div>
           </div>
         </div>
-        <form class="quote-card" id="publicQuoteForm">
-          <div class="form-head">
-            <span>Solicitud inicial</span>
-            <h3>¿Qué deseas cotizar?</h3>
+        <form class="quote-card quote-card-dynamic" id="publicQuoteForm">
+          <div class="form-head quote-form-head">
+            <div>
+              <span>Solicitud de cotización</span>
+              <h3 id="quoteFormTitle">Selecciona el seguro que deseas cotizar</h3>
+            </div>
+            <span class="quote-type-badge" id="quoteTypeBadge">Cotización</span>
           </div>
-          <div class="field-grid two">
+
+          <div class="field-grid two quote-common-fields">
             <label>Tipo de seguro
               <select id="quoteType" required>
                 <option value="">Seleccionar</option>
-                <option>Automóvil</option><option>Vida</option><option>Salud</option><option>Hogar</option><option>Empresas</option><option>Fianzas</option><option>Otros</option>
+                <option>Automóvil</option>
+                <option>Vida</option>
+                <option>Salud</option>
+                <option>Hogar</option>
+                <option>Empresas</option>
+                <option>Fianzas</option>
+                <option>Otros</option>
               </select>
             </label>
             <label>Nombre completo
@@ -202,11 +212,20 @@
               <input id="quotePhone" type="tel" placeholder="+507 6000-0000" required />
             </label>
           </div>
-          <label>Cuéntanos brevemente qué deseas asegurar
-            <textarea id="quoteNotes" rows="4" placeholder="Ej. vehículo 2023, cobertura completa..."></textarea>
+
+          <div class="quote-specific-wrap" id="quoteSpecificWrap">
+            <div class="quote-empty-state" id="quoteEmptyState">
+              <strong>Elige un tipo de seguro</strong>
+              <span>El formulario mostrará únicamente la información necesaria para esa cotización.</span>
+            </div>
+            <div class="field-grid two dynamic-fields" id="quoteSpecificFields"></div>
+          </div>
+
+          <label class="quote-notes-label">Información adicional
+            <textarea id="quoteNotes" rows="4" placeholder="Agrega cualquier detalle que consideres importante."></textarea>
           </label>
-          <button class="btn btn-primary btn-block" type="submit">Continuar con mi cotización</button>
-          <small class="form-note">Demo funcional. La información se guarda localmente en este navegador.</small>
+          <button class="btn btn-primary btn-block" type="submit">Enviar solicitud de cotización</button>
+          <small class="form-note">Esta primera solicitud recopila la información necesaria para que un asesor prepare y dé seguimiento a tu cotización. La aseguradora podría solicitar documentación adicional posteriormente.</small>
         </form>
       </div>
     </section>
